@@ -33,7 +33,7 @@ CREATE TABLE POKEMON_TYPE(
 
 CREATE TABLE ABILITY(
 	Ability_Name           VARCHAR(32)    NOT NULL,
-	Ability_Description    VARCHAR(32)    NOT NULL,
+	Ability_Description    VARCHAR(256)    NOT NULL,
 	PRIMARY KEY(Ability_Name)
 );
 CREATE TABLE MOVE(
